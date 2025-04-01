@@ -32,14 +32,14 @@ public class Bannerlands extends JavaPlugin {
 		MonsterEntityTypes = new ArrayList<EntityType>();
 		
 		MonsterEntityTypes.add(EntityType.CREEPER);			// creeper
+		MonsterEntityTypes.add(EntityType.DROWNED);			// drowned (zombie), added 1.1.0
 		MonsterEntityTypes.add(EntityType.ENDERMAN);		// enderman
+		MonsterEntityTypes.add(EntityType.HUSK);			// husk (zombie), added 1.1.0
 		MonsterEntityTypes.add(EntityType.SKELETON);		// skeleton
 		MonsterEntityTypes.add(EntityType.SPIDER);			// spider
 		MonsterEntityTypes.add(EntityType.ZOMBIE);			// zombie
 		MonsterEntityTypes.add(EntityType.ZOMBIE_VILLAGER);	// zombie_villager, added 1.0.1
 		MonsterEntityTypes.add(EntityType.WITCH);			// witch, added 1.0.1
-		MonsterEntityTypes.add(EntityType.DROWNED);			// drowned (zombie), added 1.1.0
-		MonsterEntityTypes.add(EntityType.HUSK);			// husk (zombie), added 1.1.0
 		// MonsterEntityTypes.add(EntityType.PILLAGER);		// pillager, added for consideration 1.1.1 but wait til we can make a pillager invasion
 															// invasion would be when > [invasion_thresh] banners are within a certain area, small chance to
 															// spawn large num of pillagers
